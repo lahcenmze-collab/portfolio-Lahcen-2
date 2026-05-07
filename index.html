@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio de Lahcen</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#accueil" class="logo">Lahcen</a>
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a href="#accueil">Accueil</a>
+        <a href="#apropos">À propos</a>
+        <a href="#projets">Projets</a>
+        <a href="#competences">Compétences</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Afficher le menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="accueil" class="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">Bonjour, je suis</p>
+        <h1>Lahcen, développeur web</h1>
+        <p class="hero-text">Je crée des expériences front-end modernes, accessibles et performantes pour des sites personnels, des applications et des portfolios professionnels.</p>
+        <div class="hero-actions">
+          <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+          <a href="#contact" class="btn btn-secondary">Me contacter</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="apropos" class="section section-light">
+      <div class="container section-grid">
+        <div>
+          <h2>À propos de moi</h2>
+          <p>Je suis passionné par le développement web et la création d'interfaces intuitives. J'aime transformer des idées en expériences digitales fluides et esthétiques.</p>
+          <p>Mon expertise couvre la conception responsive, le développement front-end et l'intégration d'applications web en utilisant les meilleures pratiques actuelles.</p>
+        </div>
+        <div class="card">
+          <h3>Ce que je fais</h3>
+          <ul>
+            <li>Sites vitrines et portfolios</li>
+            <li>Applications web interactives</li>
+            <li>UX/UI design responsive</li>
+            <li>Optimisation performance</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projets" class="section section-dark">
+      <div class="container">
+        <h2>Projets récents</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Portfolio personnel</h3>
+            <p>Site de présentation moderne avec sections de projets, contact et animations légères.</p>
+            <p class="project-meta">HTML / CSS / JavaScript</p>
+          </article>
+          <article class="project-card">
+            <h3>Application de gestion</h3>
+            <p>Interface web réactive pour suivre des tâches, gérer des utilisateurs et afficher des statistiques.</p>
+            <p class="project-meta">React / CSS / API REST</p>
+          </article>
+          <article class="project-card">
+            <h3>Landing page professionnelle</h3>
+            <p>Page de destination optimisée pour la conversion avec formulaire de contact et design épuré.</p>
+            <p class="project-meta">Design responsive / SEO / Accessibilité</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="competences" class="section section-light">
+      <div class="container">
+        <h2>Compétences</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Front-end</h3>
+            <p>HTML, CSS, JavaScript, React, Vue, Svelte</p>
+          </div>
+          <div class="skill-card">
+            <h3>Design</h3>
+            <p>Responsive, UI/UX, Figma, animation CSS, accessibilité</p>
+          </div>
+          <div class="skill-card">
+            <h3>Web moderne</h3>
+            <p>Performance, SEO, Progressive Web Apps, Git, déploiement</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-dark">
+      <div class="container contact-grid">
+        <div>
+          <h2>Contact</h2>
+          <p>Vous avez un projet ou vous souhaitez collaborer ? Envoyez-moi un message et je vous répondrai rapidement.</p>
+          <ul class="contact-list">
+            <li>Email : <a href="mailto:lahcen@example.com">lahcen@example.com</a></li>
+            <li>Téléphone : <a href="tel:+33000000000">+33 0 00 00 00 00</a></li>
+            <li>LinkedIn : <a href="#">linkedin.com/in/lahcen</a></li>
+          </ul>
+        </div>
+        <form class="contact-form">
+          <label for="name">Nom</label>
+          <input id="name" type="text" placeholder="Votre nom" required />
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="Votre email" required />
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="Votre message..." required></textarea>
+          <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Lahcen. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
