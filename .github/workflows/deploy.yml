@@ -15,6 +15,8 @@ jobs:
 
       - name: Configurer GitHub Pages
         uses: actions/configure-pages@v4
+        with:
+          enablement: true
 
       - name: Publier les fichiers du site
         uses: actions/upload-pages-artifact@v5
